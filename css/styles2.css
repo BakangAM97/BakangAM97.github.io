@@ -1,0 +1,13 @@
+body{
+  color: rgb(0,0,0,0.8);
+  background:linear-gradient(rgb(128,128,128,0.25), rgb(128,128,128,0.25)), url(http://bellbros.com/img/bg_woods.jpg) no-repeat;
+  background-size: cover;
+}
+h2{
+  margin-top: 8%;
+}
+.project-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}

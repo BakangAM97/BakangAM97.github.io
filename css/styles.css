@@ -1,0 +1,223 @@
+body{
+  background-color: rgb(52, 58, 64,0.8);
+  font-size: 1.1em;
+  width: 100%;
+
+  /* background-color: rgb(3, 50, 79,0.4); */
+}
+main{
+  /* color:rgba(255,255,255, 0.9); */
+  color: rgb(0,0,0,0.8);
+  background:linear-gradient(rgb(128,128,128,0.25), rgb(128,128,128,0.25)), url(http://bellbros.com/img/bg_woods.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Navbar */
+.navbar{
+  width: 100vw;
+  background-color: rgb(52, 58, 64);
+
+}
+/* Introduction */
+.image{
+  display: inline-block;
+  height: 350px;
+  width:350px;
+  background-color: white;
+  border: 5px solid orange;
+}
+.picture{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 0;
+}
+.contact-links{
+  padding-top: 20px;
+}
+.contacts li{
+  color: white;
+  padding-top: 10px;
+
+}
+.contacts{
+  list-style: none;
+  text-align: center;
+}
+h3{
+  color: white;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(https://million-wallpapers.com/wallpapers/2/17/436667671193012.jpg);
+  opacity: 0.8;
+  /* background-color: grey; */
+  /* background:linear-gradient(rgb(128,128,128,0), rgb(128,128,128,0)), url(http://static.hdw.eweb4.com/media/wallpapers_dl/1/14/136487-background-it.jpg) no-repeat; */
+  color: white;
+  background-size: 100% 100%;
+
+}
+.intro p, .intro h1{
+  padding-left: 20%;
+  font-size: 2rem;
+  opacity: 1;
+
+}
+.lead{
+  padding-bottom: 20px;
+}
+.box1{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  border-bottom: 5px solid orange;
+}
+
+/* About */
+
+.about{
+  padding-top: 10%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.about-text{
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* education */
+
+.education{
+  padding-top: 10%;
+}
+h2{
+text-align: center;
+border-bottom: 5px solid orange;
+margin-bottom: 30px;
+}
+.bath-image{
+  width:200px;
+}
+.bath-logo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width:200px;
+}
+.bath-text{
+  width:300px;
+}
+.bath{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+}
+.modules{
+  font-size: 0.9rem;
+}
+
+/* Skills */
+
+.skills{
+  padding-top: 10%;
+}
+
+ul{
+  text-align: center;
+}
+nav li{
+  padding:0 7px;
+}
+
+
+/* Employment History */
+
+.employment{
+  padding-top: 10%;
+}
+.sparta{
+  display: flex;
+  margin-top: 10px;
+}
+.sparta-pic{
+  display: flex;
+  align-items: center;
+}
+.sparta-image{
+
+  width: 150px;
+  height: 150px;
+}
+.sparta-text{
+  display: flex;
+  align-items: center;
+}
+.employment-title{
+  margin-bottom: 30px;
+}
+.employment-text{
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Projects */
+.projects{
+  padding-top:10%;
+}
+.btn{
+  color: black;
+  border-color: black;
+}
+.project-pic{
+  /* height: 200px; */
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+}
+.more-info{
+  display: inline-block;
+  color: inherit;
+}
+.card-text{
+  color: black;
+}
+.card-body{
+  background-color: rgb(0,0,0,0)
+}
+.card{
+  border: 1px solid black;
+}
+.card-img-top{
+  border: 1px solid;
+}
+.project-pic a{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+
+
+@media (max-width:770px) {
+  .employment-text{
+    width: 100%;
+  }
+}
+
+@media (max-width:550px) {
+  .about-text{
+    width: 80%;
+  }
+}
